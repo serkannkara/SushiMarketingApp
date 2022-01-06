@@ -17,9 +17,6 @@ Architecture: MVC
 <img width="298" alt="Screen Shot 2022-01-06 at 14 14 22" src="https://user-images.githubusercontent.com/83357398/148374860-2fc22a94-254a-4cce-82ca-de2bce55bb68.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 14 37" src="https://user-images.githubusercontent.com/83357398/148374866-c718b88e-f8b4-46d8-80a6-af09d22cc44e.png">
 
 
-<img width="298" alt="Screen Shot 2022-01-06 at 14 14 51" src="https://user-images.githubusercontent.com/83357398/148374902-4ba1fd2a-5088-4b2c-bdae-51482a2bd388.png">
-
-
 <img width="298" alt="Screen Shot 2022-01-06 at 14 15 04" src="https://user-images.githubusercontent.com/83357398/148374928-920b2198-056a-4d33-b547-7041e4a9b4dd.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 15 10" src="https://user-images.githubusercontent.com/83357398/148374938-164b4118-2331-433d-821e-1590b20ab88e.png">
 
 
