@@ -13,7 +13,7 @@ SQLite
 Architecture: MVC
 
 
-.     .<img width="295" alt="Screen Shot 2022-01-06 at 17 14 13" src="https://user-images.githubusercontent.com/83357398/148396284-fc529a48-50bd-491b-9e0a-c700aec71a09.png"> .      . <img width="295" alt="Screen Shot 2022-01-06 at 17 14 10" src="https://user-images.githubusercontent.com/83357398/148396271-928e081d-9a28-4bf6-a741-11f4c893c8fc.png">
+<img width="295" alt="Screen Shot 2022-01-06 at 17 14 13" src="https://user-images.githubusercontent.com/83357398/148396284-fc529a48-50bd-491b-9e0a-c700aec71a09.png"><img width="295" alt="Screen Shot 2022-01-06 at 17 14 10" src="https://user-images.githubusercontent.com/83357398/148396271-928e081d-9a28-4bf6-a741-11f4c893c8fc.png">
 
 
 <img width="295" alt="Screen Shot 2022-01-06 at 17 14 10" src="https://user-images.githubusercontent.com/83357398/148396319-a0b5f5d8-a055-428f-a851-41f0289e13f7.png"><img width="295" alt="Screen Shot 2022-01-06 at 17 14 47" src="https://user-images.githubusercontent.com/83357398/148396327-4160e485-ea56-4688-bf12-8c1e36da8011.png">
