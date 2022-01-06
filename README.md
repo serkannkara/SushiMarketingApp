@@ -2,11 +2,11 @@
 
 Sushi E-Commerce App
 
-Use for Language
-Swift-UIKIT
+Use for Language:
+Swift-UIKIT,
 Objective-C
 
-Use For Database
+Use For Database:
 SQLite
 
 
