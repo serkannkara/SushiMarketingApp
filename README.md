@@ -2,6 +2,13 @@
 
 Sushi E-Commerce App
 
+Use for Language
+Swift-UIKIT
+Objective-C
+
+Use For Database
+SQLite
+
 
 <img width="303" alt="Screen Shot 2022-01-06 at 13 30 14" src="https://user-images.githubusercontent.com/83357398/148369344-9e1e8e90-f86d-4900-a925-b655b503de3a.png"><img width="306" alt="Screen Shot 2022-01-06 at 13 30 34" src="https://user-images.githubusercontent.com/83357398/148369353-57c164c7-c8c0-4770-90fb-d45d07753086.png">
 <img width="300" alt="Screen Shot 2022-01-06 at 13 30 55" src="https://user-images.githubusercontent.com/83357398/148369363-9d75631c-17ad-4ad0-8b2d-05f18c9f12f1.png">
