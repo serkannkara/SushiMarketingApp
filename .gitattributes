@@ -2,5 +2,4 @@
 *.c linguist-vendored=false
 *.h linguist-vendored=false
 *.m linguist-vendored=false
-//*.swift linguist-vendored=false
-*.objective-c linguist-vendored=false
+*.objective-c linguist-vendored=true
