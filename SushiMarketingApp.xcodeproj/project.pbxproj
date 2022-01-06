@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A6724F27862C3D002CAF59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6724E27862C3D002CAF59 /* AppDelegate.swift */; };
+		C9A6725127862C3D002CAF59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6725027862C3D002CAF59 /* SceneDelegate.swift */; };
+		C9A6725327862C3D002CAF59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6725227862C3D002CAF59 /* HomeViewController.swift */; };
+		C9A6725627862C3D002CAF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A6725427862C3D002CAF59 /* Main.storyboard */; };
+		C9A6725827862C40002CAF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A6725727862C40002CAF59 /* Assets.xcassets */; };
+		C9A6725B27862C40002CAF59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A6725927862C40002CAF59 /* LaunchScreen.storyboard */; };
+		C9A6726627862C41002CAF59 /* SushiMarketingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6726527862C41002CAF59 /* SushiMarketingAppTests.swift */; };
+		C9A6727027862C41002CAF59 /* SushiMarketingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6726F27862C41002CAF59 /* SushiMarketingAppUITests.swift */; };
+		C9A6727227862C41002CAF59 /* SushiMarketingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6727127862C41002CAF59 /* SushiMarketingAppUITestsLaunchTests.swift */; };
+		C9A6728327863173002CAF59 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6728227863173002CAF59 /* SliderCollectionViewCell.swift */; };
+		C9A6728527863186002CAF59 /* ProductsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6728427863186002CAF59 /* ProductsCollectionViewCell.swift */; };
+		C9A6728727863196002CAF59 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6728627863196002CAF59 /* SearchCollectionViewCell.swift */; };
+		C9A67289278631AE002CAF59 /* CampaignCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A67288278631AE002CAF59 /* CampaignCollectionViewCell.swift */; };
+		C9A6728B278631F9002CAF59 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6728A278631F9002CAF59 /* CategoryTableViewCell.swift */; };
+		C9A6728D2786323A002CAF59 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6728C2786323A002CAF59 /* AccountViewController.swift */; };
+		C9A6728F27863257002CAF59 /* CampaignDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6728E27863257002CAF59 /* CampaignDetailVC.swift */; };
+		C9A6729127863267002CAF59 /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6729027863267002CAF59 /* CampaignViewController.swift */; };
+		C9A6729327863276002CAF59 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6729227863276002CAF59 /* CardViewController.swift */; };
+		C9A672952786328B002CAF59 /* CategoryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A672942786328B002CAF59 /* CategoryDetailVC.swift */; };
+		C9A672972786329C002CAF59 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A672962786329C002CAF59 /* ProductDetailVC.swift */; };
+		C9A67299278632AB002CAF59 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A67298278632AB002CAF59 /* SearchViewController.swift */; };
+		C9A6729B278632C2002CAF59 /* CampaignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6729A278632C2002CAF59 /* CampaignModel.swift */; };
+		C9A6729D278632D7002CAF59 /* CategorydaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6729C278632D7002CAF59 /* CategorydaoModel.swift */; };
+		C9A6729F278632E9002CAF59 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6729E278632E9002CAF59 /* CategoryModel.swift */; };
+		C9A672A1278632F6002CAF59 /* HomeSliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A672A0278632F6002CAF59 /* HomeSliderModel.swift */; };
+		C9A672A327863304002CAF59 /* ProductdaoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A672A227863304002CAF59 /* ProductdaoModel.swift */; };
+		C9A672A527863312002CAF59 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A672A427863312002CAF59 /* ProductModel.swift */; };
+		C9A672A827863334002CAF59 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A672A727863327002CAF59 /* libsqlite3.tbd */; };
+		C9A672B527863361002CAF59 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A672AA27863360002CAF59 /* FMDatabaseAdditions.m */; };
+		C9A672B627863361002CAF59 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A672AB27863360002CAF59 /* FMDatabasePool.m */; };
+		C9A672B727863361002CAF59 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A672AE27863360002CAF59 /* FMDatabaseQueue.m */; };
+		C9A672B827863361002CAF59 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A672B327863361002CAF59 /* FMDatabase.m */; };
+		C9A672B927863361002CAF59 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A672B427863361002CAF59 /* FMResultSet.m */; };
+		C9A672BB27863390002CAF59 /* sushidatabase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C9A672BA27863390002CAF59 /* sushidatabase.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A6726227862C41002CAF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A6724327862C3C002CAF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A6724A27862C3C002CAF59;
+			remoteInfo = SushiMarketingApp;
+		};
+		C9A6726C27862C41002CAF59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A6724327862C3C002CAF59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A6724A27862C3C002CAF59;
+			remoteInfo = SushiMarketingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9A6724B27862C3D002CAF59 /* SushiMarketingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiMarketingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6724E27862C3D002CAF59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9A6725027862C3D002CAF59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9A6725227862C3D002CAF59 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9A6725527862C3D002CAF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A6725727862C40002CAF59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A6725A27862C40002CAF59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9A6725C27862C40002CAF59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A6726127862C41002CAF59 /* SushiMarketingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiMarketingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6726527862C41002CAF59 /* SushiMarketingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiMarketingAppTests.swift; sourceTree = "<group>"; };
+		C9A6726B27862C41002CAF59 /* SushiMarketingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiMarketingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6726F27862C41002CAF59 /* SushiMarketingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiMarketingAppUITests.swift; sourceTree = "<group>"; };
+		C9A6727127862C41002CAF59 /* SushiMarketingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiMarketingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9A6728227863173002CAF59 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9A6728427863186002CAF59 /* ProductsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9A6728627863196002CAF59 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9A67288278631AE002CAF59 /* CampaignCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9A6728A278631F9002CAF59 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		C9A6728C2786323A002CAF59 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		C9A6728E27863257002CAF59 /* CampaignDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignDetailVC.swift; sourceTree = "<group>"; };
+		C9A6729027863267002CAF59 /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		C9A6729227863276002CAF59 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		C9A672942786328B002CAF59 /* CategoryDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailVC.swift; sourceTree = "<group>"; };
+		C9A672962786329C002CAF59 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		C9A67298278632AB002CAF59 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C9A6729A278632C2002CAF59 /* CampaignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignModel.swift; sourceTree = "<group>"; };
+		C9A6729C278632D7002CAF59 /* CategorydaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorydaoModel.swift; sourceTree = "<group>"; };
+		C9A6729E278632E9002CAF59 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		C9A672A0278632F6002CAF59 /* HomeSliderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderModel.swift; sourceTree = "<group>"; };
+		C9A672A227863304002CAF59 /* ProductdaoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductdaoModel.swift; sourceTree = "<group>"; };
+		C9A672A427863312002CAF59 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		C9A672A727863327002CAF59 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C9A672A927863360002CAF59 /* SushiMarketingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SushiMarketingApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C9A672AA27863360002CAF59 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C9A672AB27863360002CAF59 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C9A672AC27863360002CAF59 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C9A672AD27863360002CAF59 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C9A672AE27863360002CAF59 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C9A672AF27863360002CAF59 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C9A672B027863360002CAF59 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C9A672B127863361002CAF59 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C9A672B227863361002CAF59 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C9A672B327863361002CAF59 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C9A672B427863361002CAF59 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C9A672BA27863390002CAF59 /* sushidatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sushidatabase.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A6724827862C3C002CAF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A672A827863334002CAF59 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6725E27862C41002CAF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6726827862C41002CAF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A6724227862C3C002CAF59 = {
+			isa = PBXGroup;
+			children = (
+				C9A6724D27862C3D002CAF59 /* SushiMarketingApp */,
+				C9A6726427862C41002CAF59 /* SushiMarketingAppTests */,
+				C9A6726E27862C41002CAF59 /* SushiMarketingAppUITests */,
+				C9A6724C27862C3D002CAF59 /* Products */,
+				C9A672A627863327002CAF59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A6724C27862C3D002CAF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6724B27862C3D002CAF59 /* SushiMarketingApp.app */,
+				C9A6726127862C41002CAF59 /* SushiMarketingAppTests.xctest */,
+				C9A6726B27862C41002CAF59 /* SushiMarketingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A6724D27862C3D002CAF59 /* SushiMarketingApp */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6727E2786307E002CAF59 /* Database */,
+				C9A6727F27863087002CAF59 /* Models */,
+				C9A672812786309D002CAF59 /* Controllers */,
+				C9A6728027863094002CAF59 /* Views */,
+				C9A6725C27862C40002CAF59 /* Info.plist */,
+			);
+			path = SushiMarketingApp;
+			sourceTree = "<group>";
+		};
+		C9A6726427862C41002CAF59 /* SushiMarketingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6726527862C41002CAF59 /* SushiMarketingAppTests.swift */,
+			);
+			path = SushiMarketingAppTests;
+			sourceTree = "<group>";
+		};
+		C9A6726E27862C41002CAF59 /* SushiMarketingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6726F27862C41002CAF59 /* SushiMarketingAppUITests.swift */,
+				C9A6727127862C41002CAF59 /* SushiMarketingAppUITestsLaunchTests.swift */,
+			);
+			path = SushiMarketingAppUITests;
+			sourceTree = "<group>";
+		};
+		C9A6727E2786307E002CAF59 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C9A672B027863360002CAF59 /* FMDatabase.h */,
+				C9A672B327863361002CAF59 /* FMDatabase.m */,
+				C9A672B127863361002CAF59 /* FMDatabaseAdditions.h */,
+				C9A672AA27863360002CAF59 /* FMDatabaseAdditions.m */,
+				C9A672AC27863360002CAF59 /* FMDatabasePool.h */,
+				C9A672AB27863360002CAF59 /* FMDatabasePool.m */,
+				C9A672B227863361002CAF59 /* FMDatabaseQueue.h */,
+				C9A672AE27863360002CAF59 /* FMDatabaseQueue.m */,
+				C9A672AF27863360002CAF59 /* FMDB.h */,
+				C9A672AD27863360002CAF59 /* FMResultSet.h */,
+				C9A672B427863361002CAF59 /* FMResultSet.m */,
+				C9A672BA27863390002CAF59 /* sushidatabase.sqlite */,
+				C9A672A927863360002CAF59 /* SushiMarketingApp-Bridging-Header.h */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		C9A6727F27863087002CAF59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6729A278632C2002CAF59 /* CampaignModel.swift */,
+				C9A6729C278632D7002CAF59 /* CategorydaoModel.swift */,
+				C9A6729E278632E9002CAF59 /* CategoryModel.swift */,
+				C9A672A0278632F6002CAF59 /* HomeSliderModel.swift */,
+				C9A672A227863304002CAF59 /* ProductdaoModel.swift */,
+				C9A672A427863312002CAF59 /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9A6728027863094002CAF59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6728227863173002CAF59 /* SliderCollectionViewCell.swift */,
+				C9A6728427863186002CAF59 /* ProductsCollectionViewCell.swift */,
+				C9A6728627863196002CAF59 /* SearchCollectionViewCell.swift */,
+				C9A67288278631AE002CAF59 /* CampaignCollectionViewCell.swift */,
+				C9A6728A278631F9002CAF59 /* CategoryTableViewCell.swift */,
+				C9A6724E27862C3D002CAF59 /* AppDelegate.swift */,
+				C9A6725027862C3D002CAF59 /* SceneDelegate.swift */,
+				C9A6725427862C3D002CAF59 /* Main.storyboard */,
+				C9A6725727862C40002CAF59 /* Assets.xcassets */,
+				C9A6725927862C40002CAF59 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9A672812786309D002CAF59 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6725227862C3D002CAF59 /* HomeViewController.swift */,
+				C9A6728C2786323A002CAF59 /* AccountViewController.swift */,
+				C9A6728E27863257002CAF59 /* CampaignDetailVC.swift */,
+				C9A6729027863267002CAF59 /* CampaignViewController.swift */,
+				C9A6729227863276002CAF59 /* CardViewController.swift */,
+				C9A672942786328B002CAF59 /* CategoryDetailVC.swift */,
+				C9A672962786329C002CAF59 /* ProductDetailVC.swift */,
+				C9A67298278632AB002CAF59 /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9A672A627863327002CAF59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9A672A727863327002CAF59 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A6724A27862C3C002CAF59 /* SushiMarketingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A6727527862C41002CAF59 /* Build configuration list for PBXNativeTarget "SushiMarketingApp" */;
+			buildPhases = (
+				C9A6724727862C3C002CAF59 /* Sources */,
+				C9A6724827862C3C002CAF59 /* Frameworks */,
+				C9A6724927862C3C002CAF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SushiMarketingApp;
+			productName = SushiMarketingApp;
+			productReference = C9A6724B27862C3D002CAF59 /* SushiMarketingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A6726027862C41002CAF59 /* SushiMarketingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A6727827862C41002CAF59 /* Build configuration list for PBXNativeTarget "SushiMarketingAppTests" */;
+			buildPhases = (
+				C9A6725D27862C41002CAF59 /* Sources */,
+				C9A6725E27862C41002CAF59 /* Frameworks */,
+				C9A6725F27862C41002CAF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A6726327862C41002CAF59 /* PBXTargetDependency */,
+			);
+			name = SushiMarketingAppTests;
+			productName = SushiMarketingAppTests;
+			productReference = C9A6726127862C41002CAF59 /* SushiMarketingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9A6726A27862C41002CAF59 /* SushiMarketingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A6727B27862C41002CAF59 /* Build configuration list for PBXNativeTarget "SushiMarketingAppUITests" */;
+			buildPhases = (
+				C9A6726727862C41002CAF59 /* Sources */,
+				C9A6726827862C41002CAF59 /* Frameworks */,
+				C9A6726927862C41002CAF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A6726D27862C41002CAF59 /* PBXTargetDependency */,
+			);
+			name = SushiMarketingAppUITests;
+			productName = SushiMarketingAppUITests;
+			productReference = C9A6726B27862C41002CAF59 /* SushiMarketingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A6724327862C3C002CAF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C9A6724A27862C3C002CAF59 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+					C9A6726027862C41002CAF59 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C9A6724A27862C3C002CAF59;
+					};
+					C9A6726A27862C41002CAF59 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C9A6724A27862C3C002CAF59;
+					};
+				};
+			};
+			buildConfigurationList = C9A6724627862C3C002CAF59 /* Build configuration list for PBXProject "SushiMarketingApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A6724227862C3C002CAF59;
+			productRefGroup = C9A6724C27862C3D002CAF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A6724A27862C3C002CAF59 /* SushiMarketingApp */,
+				C9A6726027862C41002CAF59 /* SushiMarketingAppTests */,
+				C9A6726A27862C41002CAF59 /* SushiMarketingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A6724927862C3C002CAF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6725B27862C40002CAF59 /* LaunchScreen.storyboard in Resources */,
+				C9A672BB27863390002CAF59 /* sushidatabase.sqlite in Resources */,
+				C9A6725827862C40002CAF59 /* Assets.xcassets in Resources */,
+				C9A6725627862C3D002CAF59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6725F27862C41002CAF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6726927862C41002CAF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A6724727862C3C002CAF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A67299278632AB002CAF59 /* SearchViewController.swift in Sources */,
+				C9A6729D278632D7002CAF59 /* CategorydaoModel.swift in Sources */,
+				C9A672A327863304002CAF59 /* ProductdaoModel.swift in Sources */,
+				C9A672B627863361002CAF59 /* FMDatabasePool.m in Sources */,
+				C9A6725327862C3D002CAF59 /* HomeViewController.swift in Sources */,
+				C9A6728527863186002CAF59 /* ProductsCollectionViewCell.swift in Sources */,
+				C9A672B927863361002CAF59 /* FMResultSet.m in Sources */,
+				C9A6728727863196002CAF59 /* SearchCollectionViewCell.swift in Sources */,
+				C9A6728F27863257002CAF59 /* CampaignDetailVC.swift in Sources */,
+				C9A672B527863361002CAF59 /* FMDatabaseAdditions.m in Sources */,
+				C9A6724F27862C3D002CAF59 /* AppDelegate.swift in Sources */,
+				C9A6729F278632E9002CAF59 /* CategoryModel.swift in Sources */,
+				C9A67289278631AE002CAF59 /* CampaignCollectionViewCell.swift in Sources */,
+				C9A672A1278632F6002CAF59 /* HomeSliderModel.swift in Sources */,
+				C9A672B827863361002CAF59 /* FMDatabase.m in Sources */,
+				C9A6729127863267002CAF59 /* CampaignViewController.swift in Sources */,
+				C9A6725127862C3D002CAF59 /* SceneDelegate.swift in Sources */,
+				C9A672952786328B002CAF59 /* CategoryDetailVC.swift in Sources */,
+				C9A6729327863276002CAF59 /* CardViewController.swift in Sources */,
+				C9A672B727863361002CAF59 /* FMDatabaseQueue.m in Sources */,
+				C9A6728327863173002CAF59 /* SliderCollectionViewCell.swift in Sources */,
+				C9A6728B278631F9002CAF59 /* CategoryTableViewCell.swift in Sources */,
+				C9A6728D2786323A002CAF59 /* AccountViewController.swift in Sources */,
+				C9A672972786329C002CAF59 /* ProductDetailVC.swift in Sources */,
+				C9A672A527863312002CAF59 /* ProductModel.swift in Sources */,
+				C9A6729B278632C2002CAF59 /* CampaignModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6725D27862C41002CAF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6726627862C41002CAF59 /* SushiMarketingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6726727862C41002CAF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6727227862C41002CAF59 /* SushiMarketingAppUITestsLaunchTests.swift in Sources */,
+				C9A6727027862C41002CAF59 /* SushiMarketingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A6726327862C41002CAF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A6724A27862C3C002CAF59 /* SushiMarketingApp */;
+			targetProxy = C9A6726227862C41002CAF59 /* PBXContainerItemProxy */;
+		};
+		C9A6726D27862C41002CAF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A6724A27862C3C002CAF59 /* SushiMarketingApp */;
+			targetProxy = C9A6726C27862C41002CAF59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9A6725427862C3D002CAF59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A6725527862C3D002CAF59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9A6725927862C40002CAF59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A6725A27862C40002CAF59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A6727327862C41002CAF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A6727427862C41002CAF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9A6727627862C41002CAF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZR69YFKY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SushiMarketingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkankara.SushiMarketingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SushiMarketingApp/Database/SushiMarketingApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9A6727727862C41002CAF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZR69YFKY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SushiMarketingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkankara.SushiMarketingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SushiMarketingApp/Database/SushiMarketingApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9A6727927862C41002CAF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZR69YFKY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkankara.SushiMarketingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiMarketingApp.app/SushiMarketingApp";
+			};
+			name = Debug;
+		};
+		C9A6727A27862C41002CAF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZR69YFKY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkankara.SushiMarketingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SushiMarketingApp.app/SushiMarketingApp";
+			};
+			name = Release;
+		};
+		C9A6727C27862C41002CAF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZR69YFKY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkankara.SushiMarketingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SushiMarketingApp;
+			};
+			name = Debug;
+		};
+		C9A6727D27862C41002CAF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZR69YFKY4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.serkankara.SushiMarketingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SushiMarketingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A6724627862C3C002CAF59 /* Build configuration list for PBXProject "SushiMarketingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6727327862C41002CAF59 /* Debug */,
+				C9A6727427862C41002CAF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A6727527862C41002CAF59 /* Build configuration list for PBXNativeTarget "SushiMarketingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6727627862C41002CAF59 /* Debug */,
+				C9A6727727862C41002CAF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A6727827862C41002CAF59 /* Build configuration list for PBXNativeTarget "SushiMarketingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6727927862C41002CAF59 /* Debug */,
+				C9A6727A27862C41002CAF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A6727B27862C41002CAF59 /* Build configuration list for PBXNativeTarget "SushiMarketingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6727C27862C41002CAF59 /* Debug */,
+				C9A6727D27862C41002CAF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A6724327862C3C002CAF59 /* Project object */;
+}
