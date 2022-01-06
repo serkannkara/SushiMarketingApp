@@ -11,9 +11,19 @@ Database:
 SQLite
 
 
-<img width="303" alt="Screen Shot 2022-01-06 at 13 30 14" src="https://user-images.githubusercontent.com/83357398/148369344-9e1e8e90-f86d-4900-a925-b655b503de3a.png"><img width="306" alt="Screen Shot 2022-01-06 at 13 30 34" src="https://user-images.githubusercontent.com/83357398/148369353-57c164c7-c8c0-4770-90fb-d45d07753086.png">
-<img width="300" alt="Screen Shot 2022-01-06 at 13 30 55" src="https://user-images.githubusercontent.com/83357398/148369363-9d75631c-17ad-4ad0-8b2d-05f18c9f12f1.png">
+<img width="298" alt="Screen Shot 2022-01-06 at 14 14 22" src="https://user-images.githubusercontent.com/83357398/148374860-2fc22a94-254a-4cce-82ca-de2bce55bb68.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 14 37" src="https://user-images.githubusercontent.com/83357398/148374866-c718b88e-f8b4-46d8-80a6-af09d22cc44e.png">
 
-<img width="305" alt="Screen Shot 2022-01-06 at 13 31 22" src="https://user-images.githubusercontent.com/83357398/148369381-b9f7dd7d-1c82-45de-b288-21b612aaca32.png"><img width="304" alt="Screen Shot 2022-01-06 at 13 31 33" src="https://user-images.githubusercontent.com/83357398/148369389-f1566e79-5031-41af-bb2d-b02f08fbd363.png">
 
-<img width="305" alt="Screen Shot 2022-01-06 at 13 31 48" src="https://user-images.githubusercontent.com/83357398/148369395-6fa2db97-9575-4719-ae5d-d112f2c3b93d.png"><img width="303" alt="Screen Shot 2022-01-06 at 13 31 56" src="https://user-images.githubusercontent.com/83357398/148369396-23feb449-b21f-4383-8931-f56a35b035c1.png">
+<img width="298" alt="Screen Shot 2022-01-06 at 14 14 51" src="https://user-images.githubusercontent.com/83357398/148374902-4ba1fd2a-5088-4b2c-bdae-51482a2bd388.png">
+
+
+<img width="298" alt="Screen Shot 2022-01-06 at 14 15 04" src="https://user-images.githubusercontent.com/83357398/148374928-920b2198-056a-4d33-b547-7041e4a9b4dd.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 15 10" src="https://user-images.githubusercontent.com/83357398/148374938-164b4118-2331-433d-821e-1590b20ab88e.png">
+
+
+<img width="298" alt="Screen Shot 2022-01-06 at 14 15 25" src="https://user-images.githubusercontent.com/83357398/148374971-791358f2-a510-4fea-92d9-acb465d34bac.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 15 29" src="https://user-images.githubusercontent.com/83357398/148374982-385ed6a7-5f1d-4bdf-a792-b14f67e0c55f.png">
+
+
+<img width="298" alt="Screen Shot 2022-01-06 at 14 15 43" src="https://user-images.githubusercontent.com/83357398/148375011-bcaa2530-a53e-40cb-96bb-0e1038aba603.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 15 37" src="https://user-images.githubusercontent.com/83357398/148375004-ba21eab1-8e7f-462e-bce0-d1cca269e755.png">
+
+
+<img width="298" alt="Screen Shot 2022-01-06 at 14 15 19" src="https://user-images.githubusercontent.com/83357398/148375048-8151f955-c331-4639-bc00-2edbd2c27ef1.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 15 15" src="https://user-images.githubusercontent.com/83357398/148375043-90b3794b-82bf-4b76-b333-dc595d54a2aa.png">
