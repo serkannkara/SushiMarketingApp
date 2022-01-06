@@ -2,7 +2,8 @@
 
 Sushi E-Commerce App
 
-ULanguage:
+
+Language:
 Swift and
 Objective-C
 
