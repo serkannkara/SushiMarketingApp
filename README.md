@@ -3,7 +3,7 @@
 Sushi E-Commerce App
 
 Use for Language:
-Swift-UIKIT,
+Swift-UIKIT and
 Objective-C
 
 Use For Database:
