@@ -1,5 +1,5 @@
 * linguist-vendored
-*.c linguist-vendored=false
 *.m linguist-vendored=false
+*.h linguist-vendored=false
 
 *.swift linguist-vendored=true
