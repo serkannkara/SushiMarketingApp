@@ -1,1 +1,2 @@
 *.objectibe-c linguist-detectable=false
+*.swift linguist-detectable=true
