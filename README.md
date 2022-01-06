@@ -6,9 +6,13 @@ Sushi E-Commerce App
 Language:
 Swift and
 Objective-C
+
 Database:
 SQLite
+
 Architecture: MVC
+
+
 
 <img width="298" alt="Screen Shot 2022-01-06 at 14 14 22" src="https://user-images.githubusercontent.com/83357398/148374860-2fc22a94-254a-4cce-82ca-de2bce55bb68.png"><img width="298" alt="Screen Shot 2022-01-06 at 14 14 37" src="https://user-images.githubusercontent.com/83357398/148374866-c718b88e-f8b4-46d8-80a6-af09d22cc44e.png">
 
