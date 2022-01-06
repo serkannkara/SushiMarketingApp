@@ -1,2 +1,2 @@
 * linguist-vendored
-*.swift linguist-vendored=true
+*.swift linguist-vendored=false
