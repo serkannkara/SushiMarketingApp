@@ -1,7 +1,5 @@
 # SushiMarketingApp
 
-Sushi E-Commerce App
-
 
 Language:
 Swift and
